@@ -763,13 +763,14 @@ automation 3:
   trigger:
     - platform: time_pattern
       # You can also match on interval. This will match every 5 minutes
-      minutes: /5
+      minutes: "/5"
 ```
 
 <div class='note warning'>
 
 Do not prefix numbers with a zero - using `'01'` instead of `'1'` for example will result in errors.
 
+When using Visual Editor, do not use quotes.
 </div>
 
 ## Webhook trigger
